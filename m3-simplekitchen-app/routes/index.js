@@ -35,7 +35,7 @@ router.post('/',
         .withMessage('Please enter an email'),
     ],
     (req, res) => {
-        //console.log(req.body);
+        console.log(req.body);
         const errors = validationResult(req);
         if (errors.isEmpty()) {
           const registration = new Registration(req.body);
