@@ -1,11 +1,10 @@
-
-
+@import "colors.scss";
 /* SCSS */
 
 nav {
     font: {
         size: 1em;
-        font-weight: bold;
+        weight: bold;
     }
     float: left;
     ul {
@@ -29,4 +28,11 @@ nav {
     font-size: 1em;
     float: right;
     margin: 15px 5px 0 0;
-  }
+    a {
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+       }
+       color: $color4;
+    }
+}

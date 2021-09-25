@@ -1,0 +1,45 @@
+form {
+    width: 300px;
+    position:relative;
+    left: 33%;
+}
+
+.reg-container {
+    padding: 16px;
+    h1 {
+        text-align: center;
+    }
+  }
+  
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: solid 1px grey;
+    &:focus{
+        background-color: #ddd;
+        outline: none;
+    }
+}
+  
+.registerbtn {
+    background-color: #daaa0e;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.signin-container {
+    text-align: center;
+    a {
+        color: dodgerblue;
+    }
+}
