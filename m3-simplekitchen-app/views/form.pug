@@ -1,12 +1,14 @@
 extends layout
 
 block content
+    
     -data = data || {}
 
     if errors
         ul.my-errors
         for error in errors
             li= error.msg
+    h1 Register to Subscribe
     form(action="." method="POST" class="form-registration")
         label(for="name") Name:
         input(
