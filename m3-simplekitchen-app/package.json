@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lite": "lite-server",
-    "scss": "node-sass -o scss/ scss/",
+    "scss": "node-sass -o css/ css/",
     "start": "npm run watch:all",
     "watch": "nodemon ./start.js",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,10 +22,12 @@
     "http-auth": "^4.1.2",
     "lite-server": "^2.6.1",
     "mongoose": "^5.12.0",
+    "onchange": "^7.1.0",
     "pug": "^3.0.2"
   },
   "devDependencies": {
-    "node-sass": "^4.14.1",
-    "nodemon": "^2.0.7"
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.7",
+    "parallelshell": "^3.0.1"
   }
 }
